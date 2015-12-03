@@ -23,14 +23,6 @@ object Paho extends App {
       option.setWill("test","test will message".getBytes,2, true)
       client1.connect(option)
       println("client1 1 => connection complete")
-      println("")
-      println("")
-      println("")
-      println("")
-      println("")
-      println("")
-      println("")
-
 
       var client2 = new MqttClient("tcp://localhost:8888", "customer_2")
       client2.setCallback(
