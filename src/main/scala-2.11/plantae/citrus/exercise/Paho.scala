@@ -27,6 +27,9 @@ object Paho extends App {
       println("")
       println("")
       println("")
+      println("")
+      println("")
+      println("")
 
 
       var client2 = new MqttClient("tcp://localhost:8888", "customer_2")
